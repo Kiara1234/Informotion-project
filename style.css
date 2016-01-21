@@ -1,0 +1,130 @@
+* {
+  font-family: 'Open Sans';
+  color:#00295D;
+  font-size: 14px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color:#fff;
+}
+
+h1 { 
+  position: absolute;
+  top:0px;
+  text-align: center;
+  font-size: 40px;
+  color:#007395;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  background-color: #E4F5F9;
+  opacity: 1;
+}
+
+.uitleg {
+  position: absolute;
+
+}
+
+.waterUur {
+  position: relative;
+  float: right;
+  margin-top: -18px;
+  margin-right:370px;
+
+}
+
+#map-canvas{
+  height: 600px;
+  width: 800px;
+}
+
+.SvgOverlay {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.SvgOverlay svg {
+  position: absolute;
+  top: -4000px;
+  left: -4000px;
+  width: 8000px;
+  height: 8000px;
+}
+
+.SvgOverlay path {
+  stroke: Green;
+  stroke-width: 1px;
+  fill: Green;
+  fill-opacity: .4;
+}
+
+iframe{
+  margin-top: -500px;
+}
+
+aside{
+  margin-left: 750px;
+  margin-top: -560px;
+  margin-right: 20px;
+}
+
+#container{
+  width:200px;
+  margin-left: -30px;
+}
+
+#piechart{
+  padding-left: 120px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#kas{
+  width:900px;
+  margin-right: 500px;
+  margin-left: -200px;
+}
+
+#square {
+  border-radius: 25px;
+  width: 600px;
+  height: 500px;
+  background: #007395;
+  margin-left: 700px;
+  margin-top: -700px;
+}
+
+#square>p{
+  margin-left: 40px;
+  color:#ffffff;
+  padding-right: 30px;
+
+}
+
+#linkje{
+  margin-left: 725px;
+  margin-top: 50px;
+
+}
+
+#ballon{
+  width:1000px;
+ position: absolute;
+ margin-top: -850px;
+ margin-left: 160px;
+}
